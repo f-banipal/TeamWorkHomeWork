@@ -1,0 +1,141 @@
+
+body {
+  font-family:'Courier New', Courier, monospace
+  margin: 0;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 38, 0, 0.986);
+  background: linear-gradient(to top, hsl(17, 100%, 50%), red);
+  overflow: hidden;
+  font-size: 36px;
+  
+}
+
+#box1{
+  display: flex;
+  flex: 1;
+  overflow-x: auto;
+  overflow-y: auto;;
+  }
+
+#box2{
+  display: flex;
+  flex: 1;
+  text-align: center;
+  overflow-x: auto;
+  overflow-y: auto;
+  }
+
+#box3{
+  display: flex;
+  flex: 1;
+  text-align: center;
+  overflow-x: auto;
+  overflow-y: auto;
+  }
+
+#k1{
+    border: none;
+    padding: 10px;
+    margin: 50px;
+    flex: 1;
+    aspect-ratio: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+
+#k2{
+    border: 5px dotted #ccc; ;
+    border-color: white;
+    padding: 10px;
+    margin: 50px;
+    flex: 1;
+    aspect-ratio: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+#k3{
+    border: 5px dashed white;
+    padding: 10px;
+    margin: 50px;
+    flex: 1;
+    aspect-ratio: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+#k4{
+    border: 5px solid white;
+    padding: 10px;
+    margin: 50px;
+    flex: 1;
+    aspect-ratio: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+#k5{
+    border: 5px double white;
+    padding: 10px;
+    margin: 50px;
+    flex: 1;
+    aspect-ratio: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+#k6{
+    border: 5px groove white;
+    padding: 10px;
+    margin: 50px;
+    flex: 1;
+    aspect-ratio: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+#k7{
+    border: 5px ridge white;
+    padding: 10px;
+    margin: 50px;
+    flex: 1;
+    aspect-ratio: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+#k8{
+    border: 5px inset white;
+    padding: 10px;
+    margin: 50px;
+    flex: 1;
+    aspect-ratio: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+#k9{
+    border: 5px outset white;
+    padding: 10px;
+    margin: 50px;
+    flex: 1;
+    aspect-ratio: 1;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+

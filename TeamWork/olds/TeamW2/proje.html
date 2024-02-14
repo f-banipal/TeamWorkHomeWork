@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./proje.css">
+</head>
+<body>
+    
+    <script>
+        const month = prompt(`Enter a month (1-12)`);
+        const day = prompt(`Enter a day: (1-31)`);
+        const isValidMonth = month >= 1 && month <= 12;
+        const isValidDay = day >= 1 && day <= 31;
+    
+        let season;
+    
+        if (!isValidMonth || !isValidDay) {
+            console.log(`Invalid month or day. Please enter valid values.`);
+        } else {
+            if ((month >= 3 && month <= 5) || (month === 2 && day >= 20 && day <= 31)) {
+                season = `spring`;
+            } else if ((month >= 6 && month <= 8) || (month === 9 && day <= 21)) {
+                season = `summer`;
+            } else if ((month === 9 && day >= 22) || (month >= 10 && month <= 11) || (month === 12 && day <= 20)) {
+                season = `fall`;
+            } else if ((month === 12 && day >= 21) || (month === 1) || (month === 2 && day <= 20)) {
+                season = `winter`;
+            }
+        }
+    
+        console.log(season);
+    </script>
+</body>
+</html>
